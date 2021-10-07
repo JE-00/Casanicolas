@@ -1,0 +1,164 @@
+---Datos Personales---
+Nombre(s)
+ApellidoPaterno
+ApellidoMaterno
+Nombre no oficial (Alias)
+
+Cuenta con teléfono (Y/N/Prefiere no decir)
+	LADA
+	Número telefónico
+	Dueño de teléfono
+
+Cuenta con documentos de identificación (Y/N/Prefiere no decir)
+	Tipo de documento (Cédula de identidad)
+	Número/Folio
+
+---Sociodemográficos---
+Sexo
+Género
+País de nacimiento
+Estado / Departamento
+Municipio / Localidad
+Fecha de nacimiento (Fecha/Desconocida)
+Edad
+Estado civil
+Religión
+Lengua(s) Hablada(s)
+Pertenencia a grupo indígena (Y/N/Prefiere no decir)
+	Especificar
+Grado de estudios
+Profesión / Oficio
+Ocupación en lugar de origen
+Cuenta con empleo
+	Tipo (Formal/Informal)
+	Especificar
+Cuenta con dependientes (Y/N/Prefiere no decir)
+	Cuánta(o)s
+Cuenta con hija(o)s (Y/N/Prefiere no decir)
+	Cuánta(o)s
+Presenta padecimiento físico (Y/N)
+	Específicar
+Se ha sentido (Emocionalmente)
+Presenta discapacidad (Y/N)
+	Tipo
+	Especificar
+Cuenta con señas particulares (Y/N)
+	Lugar
+	Tipo de seña (Tatuaje, cicatriz, etc.)
+	Descripción de las señas particulares
+
+---Movilidad---
+--Datos sobre historial de movilidad y deportación--
+Ha salido de su lugar de origen previamente (Y/N/Prefiere no decir)
+	A donde
+	Número de ocasiones
+	Ha sido deportada previamente (Y/N/Prefiere no decir)
+--Datos sobre proceso de movilidad--
+Lugar en que residía en lugar de origen
+País
+Estado/Departamento
+Municipio/Localidad
+Fecha de saida de lugar de residencia (Fecha/Desconocida)
+Localidad/Punto de entrada a México
+Fecha (Fecha/Desconocida)
+Formas de desplazamiento
+Ha recibido ayuda (Y/N)
+	De quién
+Lugar de destino
+	Estado/Departamento destino
+	Probable localidad/Punto de entrada a EUA
+Condición de viaje (Sola/Acompañada/Prefiere no decir)
+	Tipos de acompañantes
+		La persona es la cabeza de familia
+		Buscar cabeza de familia
+			Relación con cabeza de familias
+Motivos de salida de lugar de origen
+	Especificar
+
+---Probables violaciones a derechos humanos---
+--Datos sobre probables violaciones a derechos humanos--
+Fecha de creación de testimonio
+Durante su proceso de movilidad sufrió y/o presenció que: (Y/N)
+	Agredieran verbalmente a alguien
+	Le negaran el aceso a alguien en algún lugar
+	Golpearan/Lastimaran fisicamente a alguien
+	Tocaran u obligaran a alguien a tocar a otra persona de una forma que les hiciera sentir mal
+	Obligaran a alguien a tener relaciones sexuales con otra persona/objeto
+	Mataran a alguien
+	Le pidieran dinero a alguien para dejarle continuar su viaje
+	Le robaran sus pertenencias a alguien
+	Alguien fue privada de su libertad
+	Obligaran a alguien a realizar alguna actividad (delictiva o no)
+	Alguien fue detenida sin motivo por alguna autoridad no migratoria
+
+	Especificar: Presenció/Sufrió/Ambas
+		Agente agresor
+			Particulares
+				Especificar: Pandilla/Delincuencia organizada/Persona por cuenta propia/Mara/Personal de seguridad de empresas privadas
+			No reconoce
+			Agentes del Estado
+				Especificar: Municipales/Estatales/Federales/Ejército/Marina/Agentes migratorios/Personal de seguridad del tren/Personal de la Guardia Nacional
+		País
+			Estado/Departamento
+				Municipio/Localidad
+
+	Ha gozado de "Alternativas a la detención"
+		Durante su detención sufrió y/o presenció que agredieran a alguien física o verbalmente
+			Agente agresor
+				Particulares
+					Especificar: Pandilla/Delincuencia organizada/Persona por cuenta propia/Mara/Personal de seguridad de empresas privadas
+				No reconoce
+				Agentes del Estado
+					Especificar: Municipales/Estatales/Federales/Ejército/Marina/Agentes migratorios/Personal de seguridad del tren/Personal de la Guardia Nacional
+
+		Las condiciones de detención fueron dignas
+		Le informaron de sus derechos al estar detenida
+		Recibió apoyo del Consulado
+		Recibió apoyo de un(a) abogada(o)
+		Recibió apoyo de traductor
+
+Durante su proceso de movilidad: (Y/N)
+	Ha realizado alguna actividad remunerada
+		Tales actividades pusieron en riesgo su vida
+		La remuneración era suficiente para cubrir sus gastos
+		Le pagaban en los timepos acordados
+		En qué país
+			Estado/Departamento
+				Municipio/Localidad
+	Ha buscado atención médica (Y/N)
+		Y: Especificar: Curandero|Guía espiritual/Médico privado(farmacia)/Médico público(centro de salud)/Personal del albergue/Se automedicó
+			Brindaron atención (Y/N)
+			En donde:
+				País
+					Estado/Departamento
+						Municipio/Localidad
+		N: Razón
+	Ha buscado acceder a alguna institución educativa
+		Especificar: Institución privada/Institución pública/Ambas
+		Brindaron atención (Y/N)
+			En donde:
+				País
+					Estado/Departamento
+						Municipio/Localidad
+	Ha buscado un lugar para vivir
+		Especificar: Casa
+		Le negaron el lugar Y/N
+		En donde:
+			País
+				Estado/Departamento
+					Municipio/Localidad
+	Denunció el o los hechos de los que fue víctima
+		En donde:
+			País
+				Estado/Departamento
+					Municipio/Localidad
+
+---Uso Interno---
+Observaciones
+Nivel de alerta: Blanca/Amarilla/Roja
+Razón por la que se da la alerta
+
+---Registro---
+Fecha
+Hora
+Casa, albergue, comedor u organización
