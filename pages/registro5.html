@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Base de datos</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Casanicolas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-current="page" href="#" aria-disabled="true">Base de Datos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#.html">Registro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="validar.html">Validar</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Buscar
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Buscar por nombre</a></li>
+                            <li><a class="dropdown-item" href="#">Buscar por nacionalidad</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Búsqueda libre</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Obtener reporte</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input disabled class="form-control me-2 disabled" type="search" placeholder="Buscar"
+                        aria-label="search" aria-disabled="true" />
+                    <button class="btn btn-outline-success disabled" type="submit" aria-disabled="true">
+                        Buscar
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div>
+            <h1>Registro de Migrantes</h1>
+            <h2>Datos de su viaje</h2>
+            <h3>Origen</h3>
+            <form>
+                <div class="mb-3">
+                    <label for="InputPaisOrig" class="form-label">País de origen</label>
+                    <input type="paisOrig" placeholder="País de orgien" class="form-control" id="InputPaisOrig"
+                        aria-describedby="paisOrigHelp" />
+                    <div id="paisOrigHelp" class="form-text">
+                        País del que se partió originalmente.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="InputEstadoOrig" class="form-label">Estado o Departamento de origen</label>
+                    <input type="estadoOrig" placeholder="Estado o Departamento de origen" id="InputEstadoOrig"
+                        class="form-control" aria-describedby="estadoOrigHelp" />
+                    <div id="estadoOrigHelp" class="form-text">
+                        Estado o Departamento del que se partió originalmente.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="InputCiudadOrig" class="form-label">Ciudad de origen</label>
+                    <input type="ciudadOrig" placeholder="Ciudad de origen" id="InputCiudadOrig" class="form-control"
+                        aria-describedby="ciudadOrigHelp" />
+                    <div id="ciudadOrigHelp" class="form-text">
+                        Ciudad del que se partió originalmente.
+                    </div>
+                </div>
+            </form>
+            <h3>Viaje</h3>
+            <form>
+                <div class="mb-3">
+                    <label for="InputPaisDest" class="form-label">País destino</label>
+                    <input type="paisDest" placeholder="País destino" class="form-control" id="InputPaisDest"
+                        aria-describedby="paisDestHelp" />
+                    <div id="paisDestHelp" class="form-text">
+                        País al que se busca llegar.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="InputEstadoDest" class="form-label">Estado o Departamento destino</label>
+                    <input type="estadoDest" placeholder="Estado o Departamento destino" id="InputEstadoDest"
+                        class="form-control" aria-describedby="estadoDestHelp" />
+                    <div id="estadoDestHelp" class="form-text">
+                        Estado o Departamento al que se busca llegar
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="InputCiudadDest" class="form-label">Ciudad destino</label>
+                    <input type="ciudadDest" placeholder="Ciudad destino" id="InputCiudadDest" class="form-control"
+                        aria-describedby="ciudadDestHelp" />
+                    <div id="ciudadDestHelp" class="form-text">
+                        Ciudad a la que se busca llegar
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="InputMotivo" class="form-label">Motivo de salida</label>
+                    <input type="motivo" placeholder="Motivo de salida" id="InputMotivo" class="form-control"
+                        aria-describedby="motivoHelp" />
+                    <div id="motivoHelp" class="form-text">
+                        Motivo principal de salida.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="InputMotivoExt" class="form-label">Motivo detallado de salida</label>
+                    <input type="motivoExt" placeholder="Motivo detallado de salida" id="InputMotivoExt"
+                        class="form-control" aria-describedby="motivoExtHelp" />
+                    <div id="motivoExtHelp" class="form-text">
+                        Descripción detallada del motivo principal de salida.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="InputEstatusMigra" class="form-label">Estatus de migración</label>
+                    <input type="estatusMigra" placeholder="Estatus de migración" id="InputEstatusMigra"
+                        class="form-control" aria-describedby="estatusMigraHelp" />
+                    <div id="estatusMigraHelp" class="form-text">
+                        Estatus de migración actual.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="InputDeportaciones" class="form-label">Número de deportaciones</label>
+                    <input type="deportaciones" placeholder="Número de deportaciones" id="InputDeportaciones"
+                        class="form-control" aria-describedby="deportacionesHelp" />
+                    <div id="deportacionesHelp" class="form-text">
+                        Número de deportaciones.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="InputEstadoCruce" class="form-label">Estado de cruce fronterizo</label>
+                    <input type="estadoCruce" placeholder="Estado de cruce fronterizo" id="InputEstadoCruce"
+                        class="form-control" aria-describedby="estadoCruceHelp" />
+                    <div id="estadoCruceHelp" class="form-text">
+                        Estado de cruce fronterizo.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="InputMunicipioCruce" class="form-label">Municipio de cruce fronterizo</label>
+                    <input type="municipioCruce" placeholder="Municipio de cruce fronterizo" id="InputMunicipioCruce"
+                        class="form-control" aria-describedby="municipioCruceHelp" />
+                    <div id="municipioCruceHelp" class="form-text">
+                        Municipio de cruce fronterizo.
+                    </div>
+                </div>
+            </form>
+            <a href="registro6.html" type="button" class="btn btn-primary">Siguiente</a>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
