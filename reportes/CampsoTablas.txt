@@ -1,0 +1,187 @@
+--- User ---
+--- user_ID
+- email
+- contrasenia
+- user_type
+
+--- Migrante ---
+--- ID
+-- hist_alertas_ID
+-- hist_registros_ID
+
+--- Historial de Alertas ---
+--- hist_alertas_ID
+
+--- Alerta ---
+--- alerta_ID
+-- hist_alertas_ID
+- codigo
+- descripcion
+
+--- Historial de Registros ---
+--- hist_registros_ID
+- latest_registro
+
+--- Registro ---
+--- registro_ID
+-- hist_registros_ID
+-- datos_basicos_ID
+-- user_ID
+- fecha_modif
+- hora_modif
+- validacion
+
+--- Datos Basicos ---
+--- datos_basicos_ID
+-- datos_pers_ID
+-- contacto_ID
+-- identif_ID
+- nombre
+- apellido_p
+- apellido_m
+- alias
+- edad
+
+--- Datos Personales ---
+--- datos_pers_ID
+-- origen_ID
+-- relac_ID
+-- hist_med_ID
+- fecha_nacimiento
+- sexo
+- genero
+- fotografia
+- senia_particular
+- senia_part_especif
+- idioma
+- otro_idioma
+- grado_estudios
+- oficio
+- ocupacion_orig
+- empleo_activo
+- empleo_act_especif
+- religion
+
+--- Datos de Contacto ---
+--- contacto_ID
+- LADA
+- num_tel
+- duenio_num
+- modelo_cel
+- email
+
+--- Datos de Identificación ---
+--- identif_ID
+- doc_identif
+- num_doc_identif
+
+--- Relaciones ---
+--- relac_ID
+-- familia_ID
+-- conexiones_ID
+- estado_civil
+- grupo_etnico
+- dependientes
+
+--- Familia ---
+--- familia_ID
+- hijos
+
+--- Familiar ---
+--- familiar_ID
+-- familia_ID
+- acompaniante
+- nombre
+- apellido_p
+- apellido_m
+- relacion
+- num_tel
+- nacionalidad
+
+--- Conexiones ---
+--- conexiones_ID
+
+--- Conexion de confianza ---
+--- conexion_conf_ID
+-- conexiones_ID
+- nombre
+- apellido_p
+- apellido_m
+- relacion
+- num_tel
+- nacionalidad
+
+--- Conexion ---
+--- conexion_ID
+-- conexiones_ID
+- nombre
+- apellido_p
+- apellido_m
+- relacion
+- num_tel
+- nacionalidad
+
+--- Origen ---
+--- origen_ID
+-- viaje_ID
+- pais
+- estado
+- municipio
+- fecha_salida
+- motivo_salida
+- motivo_especif
+
+--- Viaje ---
+--- viaje_ID
+-- incidencias_ID
+-- hist_casas_ID
+- estado_entrada
+- municipio_entrada
+- forma_transporte
+- pais_destino
+- estado_destino
+- municipio_destino
+- estatus_migracion
+- deportaciones
+- estado_cruce
+- municipio_cruce
+
+--- Incidencias ---
+--- incidencias_ID
+
+--- Incidencia ---
+--- incidencia_ID
+-- incidencias_ID
+- tipo
+- especif
+- agresor
+- pais
+- estado
+- municipio
+
+--- Historial de Casas ---
+--- hist_casas_ID
+
+--- Casa de migrantes ---
+--- casa_ID
+-- hist_casas_ID
+- nombre
+- fecha_llegada
+- fecha_salida
+
+--- Historial Médico ---
+--- hist_med_ID
+- estado_emocional
+
+--- Condición Médica ---
+--- cond_med_ID
+-- hist_med_ID
+- condicion
+- cuidados
+- tratamiento
+- medicamento
+
+--- Embarazo ---
+--- embarazo_ID
+-- hist_med_ID
+- semanas
