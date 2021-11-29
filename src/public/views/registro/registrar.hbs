@@ -1,0 +1,39 @@
+<section>
+    <div>
+      <h1>Registro de Migrantes</h1>
+      <h2>Datos básicos</h2>
+      <form action="/registro/registrar" method="POST">
+        <div class="mb-3">
+          <label for="InputNombre" class="form-label">Nombre(s)</label>
+          <input type="text" placeholder="Nombre(s)" class="form-control" id="inputNombre" name="inputNombre"
+            aria-describedby="nombreHelp" autofocus/>
+        </div>
+        <div class="mb-3">
+          <label for="inputApellidoP" class="form-label">Apellido Paterno</label>
+          <input type="text" placeholder="Apellido Paterno" id="inputApellidoP" name="inputApellidoP" class="form-control"
+            aria-describedby="apellidoPHelp" />
+        </div>
+        <div class="mb-3">
+          <label for="inputApellidoM" class="form-label">Apellido Materno</label>
+          <input type="text" placeholder="Apellido Materno" id="inputApellidoM" name="inputApellidoM" class="form-control"
+            aria-describedby="apellidoMHelp" />
+        </div>
+        <div class="mb-3">
+          <label for="inputEdad" class="form-label">Edad</label>
+          <input type="number" placeholder="Edad" class="form-control" id="inputEdad" aria-describedby="edadlHelp" />
+          <div id="edadHelp" class="form-text">
+            Años de edad.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="InputNacionalidad" class="form-label">Nacionalidad</label>
+          <input type="text" placeholder="Nacionalidad" class="form-control" id="InputNacionalidad"
+            aria-describedby="nacionalidadHelp" />
+          <div id="nacionalidadHelp" class="form-text">
+            Nacionalidad (País de origen)
+          </div>
+        </div>
+        <a href="registro2.html" type="button" class="btn btn-primary">Siguiente</a>
+      </form>
+    </div>
+  </section>
